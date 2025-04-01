@@ -1,0 +1,91 @@
+body{
+    font-family:'PT Sans',sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.6;
+   }
+   a{
+    text-decoration: none;
+    color: #ccc;
+
+   }
+   .fc div img{
+    width: 230px;
+    padding-bottom: 0;
+    border-bottom: 1px solid lightblue;
+    background: #ffffff;
+
+
+   }
+   #show{
+    margin: 0;
+    padding: 0;
+    background:url(./Image/Manipulation\ Photo\ \(1\).jpeg) no-repeat center/cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y:hidden ;
+   }
+
+
+  
+   nav{
+height: 50px;
+width: 800%;
+background-color:#807be6;
+color: rgb(22, 181, 216);
+top: 0;
+position:fixed;
+
+}
+nav ul{
+padding: 0;
+margin: 0;
+
+}
+nav li{
+display: inline;
+float: left;
+}
+nav a{
+display: inline-block;
+width: 100px;
+text-align:center ;
+text-decoration: none;
+padding:15px 0 ;
+color:#eee;
+text-decoration: none;
+}
+nav li:hover{
+background-color: rgb(49, 46, 46);
+}
+.footer-bottom{
+background-color: rgb(2, 2, 2);
+
+text-align: center;
+padding: 0.4%;
+
+}
+.fc{
+    margin: 5%;
+    margin-top: 90px;
+    border: solid ;
+    padding: 2%;
+    margin-right:35% ;
+    margin-left: 35%;
+    text-align: center;
+
+
+}
+.fc input,label{
+    width: 45%;
+    padding: 12px 4px;
+    border-radius:  4px;
+    font-size: 15px;
+    grid:2%;
+
+
+}
+
